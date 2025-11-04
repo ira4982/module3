@@ -2,28 +2,66 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Our Menu</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Food, LLC</title>
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <h1>Our Menu</h1>
 
-  <div class="menu-container">
-    <div class="menu-item">
-      <div class="menu-label chicken">Chicken</div>
-      <p>We coat the chicken in a simple seasoning that becomes crispy when pan-fried, then while the chicken is resting we make a 1 minute butter sauce in the same pan so it gets flavour from the residual seasoning. It’s incredibly tasty and incredibly quick!</p>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#mobile-menu" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Food, LLC</a>
+      </div>
+
+      <!-- Collapsible Menu for Mobile -->
+      <div class="collapse navbar-collapse" id="mobile-menu">
+        <ul class="nav navbar-nav visible-xs text-center">
+          <li><a href="#">Chicken</a></li>
+          <li><a href="#">Beef</a></li>
+          <li><a href="#">Sushi</a></li>
+        </ul>
+      </div>
     </div>
+  </nav>
 
-    <div class="menu-item">
-      <div class="menu-label beef">Beef</div>
-      <p>This stir fry is packed with strips of beef steak, veggies, and saucy flavors for a weeknight dinner warrior that checks all the boxes. Served with rice or lo mein noodles, this will be the best beef stir-fry you've ever tasted.</p>
-    </div>
+  <!-- PAGE HEADING -->
+  <div class="container">
+    <h1 class="text-center">Our Menu</h1>
+  </div>
 
-    <div class="menu-item">
-      <div class="menu-label sushi">Sushi</div>
-      <p>If you love sushi, we encourage you to try our sushi, Chirashi-zushi. We prepared it by arranging various ingredients such as seafood, shredded egg omelet, seaweed, and shiitake mushrooms on top of vinegared rice.</p>
+  <!-- MAIN SECTION -->
+  <div class="container-fluid">
+    <div class="row">
+      <section class="col-xs-12 main-section">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet felis et lorem consequat porta. 
+          Suspendisse commodo urna sed quam facilisis, ac aliquet mauris eleifend. Vivamus euismod nisi nec orci 
+          sagittis, sit amet finibus sapien egestas. Duis gravida tincidunt purus, vitae malesuada lorem facilisis id. 
+          Integer dignissim, justo at aliquet mattis, tortor libero pulvinar purus, in feugiat lorem turpis a purus.
+        </p>
+        <p>
+          (Repeat or add more content here to make the section tall enough for scrolling.)
+        </p>
+      </section>
     </div>
   </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
