@@ -1,14 +1,14 @@
-/* GENERAL STYLES */
+/* === GENERAL === */
 body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-/* NAVBAR */
+/* === NAVBAR === */
 .navbar {
   margin-bottom: 0;
 }
 
-/* MOBILE DROPDOWN MENU */
+/* === MOBILE MENU === */
 #mobile-menu {
   background-color: #f8f8f8;
 }
@@ -22,21 +22,21 @@ body {
   background-color: #e7e7e7;
 }
 
-/* PAGE HEADING */
+/* === PAGE HEADING === */
 h1 {
   margin: 30px 0;
   font-weight: bold;
 }
 
-/* MENU BOXES */
+/* === MENU BOXES === */
 .menu-item {
   border: 1px solid #999;
   padding: 20px;
   margin-bottom: 30px;
   min-height: 300px;
-  color: #fff;
   border-radius: 4px;
   text-align: center;
+  color: #fff;
 }
 
 /* Distinct background colors */
@@ -59,13 +59,13 @@ h1 {
   color: #fff;
 }
 
-/* Paragraphs centered inside boxes */
+/* Paragraph text inside boxes */
 .menu-item p {
   text-align: left;
   color: #fff;
 }
 
-/* RESPONSIVE BEHAVIOR */
+/* === RESPONSIVE === */
 @media (max-width: 767px) {
   .menu-item {
     margin-bottom: 20px;
