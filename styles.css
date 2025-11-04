@@ -31,30 +31,37 @@ h1 {
 /* MENU BOXES */
 .menu-item {
   border: 1px solid #999;
-  padding: 15px;
-  margin-bottom: 20px;
+  padding: 20px;
+  margin-bottom: 30px;
   min-height: 300px;
   color: #fff;
   border-radius: 4px;
+  text-align: center;
 }
 
-/* DISTINCT BACKGROUNDS */
-.menu-item.chicken {
-  background-color: #f6b26b; /* warm orange */
+/* Distinct background colors */
+.chicken {
+  background-color: #f6b26b !important; /* orange */
 }
 
-.menu-item.beef {
-  background-color: #c0504d; /* deep red */
+.beef {
+  background-color: #c0504d !important; /* deep red */
 }
 
-.menu-item.sushi {
-  background-color: #6fa8dc; /* light blue */
+.sushi {
+  background-color: #6fa8dc !important; /* blue */
 }
 
-/* HEADINGS INSIDE BOXES */
+/* Headings inside boxes */
 .menu-item h3 {
   margin-top: 0;
   font-weight: bold;
+  color: #fff;
+}
+
+/* Paragraphs centered inside boxes */
+.menu-item p {
+  text-align: left;
   color: #fff;
 }
 
